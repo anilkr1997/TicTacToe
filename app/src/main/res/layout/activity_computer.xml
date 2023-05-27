@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center_horizontal"
+        ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="0dp"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/recangle"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn: "
+        android:id="@+id/turn"
+        android:gravity="left"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/red"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/recangle"
+        android:layout_height="wrap_content"
+        android:text="Reset Match"
+        android:id="@+id/reset"
+        />
+
+</LinearLayout>

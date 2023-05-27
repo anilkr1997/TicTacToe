@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">53sp</dimen>
+    <dimen name="aboutlogo">200dp</dimen>
+    <dimen name="aboutwebcontact">17sp</dimen>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.tictactoe.StageActivity">
+    <Button
+        android:id="@+id/playf"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/recy"
+        android:text="Play with Friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center_horizontal"
+        ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+    <Button
+        android:id="@+id/simpleplay"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Play with Uknown"
+        android:layout_width="match_parent"
+        android:background="@drawable/recy"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/playc"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Play with Computer"
+        android:layout_width="match_parent"
+        android:background="@drawable/recy"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/about"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="About Us"
+        android:background="@drawable/recy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
